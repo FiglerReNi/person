@@ -1,12 +1,12 @@
-package hu.tmx.personJava.model;
+package hu.tmx.person.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import hu.tmx.personJava.exception.AlreadyMarriedException;
-import hu.tmx.personJava.exception.SameGenderException;
-import hu.tmx.personJava.exception.TooYoungException;
+import hu.tmx.person.exception.AlreadyMarriedException;
+import hu.tmx.person.exception.SameGenderException;
+import hu.tmx.person.exception.TooYoungException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package hu.tmx.personJava.exception;
+package hu.tmx.person.exception;
 
 public class SameGenderException extends Exception{
 

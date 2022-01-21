@@ -1,9 +1,9 @@
-package hu.tmx.personJava.model;
+package hu.tmx.person.model;
 
-import hu.tmx.personJava.exception.AlreadyMarriedException;
-import hu.tmx.personJava.exception.SameGenderException;
-import hu.tmx.personJava.exception.TooYoungException;
-import hu.tmx.personJava.util.RandomGenerator;
+import hu.tmx.person.exception.AlreadyMarriedException;
+import hu.tmx.person.exception.SameGenderException;
+import hu.tmx.person.exception.TooYoungException;
+import hu.tmx.person.util.RandomGenerator;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,7 +20,7 @@ public class Person {
         this.name = name;
         this.isMale = isMale;
         this.age = age;
-        this.isMarried = RandomGenerator.getRandomValue(2) != 0;
+        this.isMarried = RandomGenerator.getRandomValue();
     }
 
     public boolean isMarriagePossible(Person person) throws SameGenderException, TooYoungException, AlreadyMarriedException {

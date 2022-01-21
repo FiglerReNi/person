@@ -1,4 +1,4 @@
-package hu.tmx.personJava;
+package hu.tmx.person;
 
 /**
  * Hello world!
